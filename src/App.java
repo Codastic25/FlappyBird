@@ -15,6 +15,7 @@ public class App {
         FlappyBird flappyBird = new FlappyBird();// instance of FlappyBird
         frame.add(flappyBird); //add to the frame
         frame.pack();
+        flappyBird.requestFocus();
         frame.setVisible(true); //to make it visible after using the JPanel
     }
 
